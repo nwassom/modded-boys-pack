@@ -3,6 +3,6 @@ filename = "controllable-forge-1.20.1-0.21.9.jar"
 side = "client"
 
 [download]
-url = "https://nwassom.github.io/modded-mc-server/_side-files/client/mods/controllable-forge-1.20.1-0.21.9.jar"
+url = "https://nwassom.github.io/modded-boys-pack/_side-files/client/mods/controllable-forge-1.20.1-0.21.9.jar"
 hash-format = "sha256"
 hash = "937f628547fb077ac207ecf1180541c707c26beafa3e98b1ab239ef22bdf2b80"

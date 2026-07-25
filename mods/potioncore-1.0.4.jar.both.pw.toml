@@ -3,6 +3,6 @@ filename = "potioncore-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/potioncore-1.0.4.jar"
+url = "https://nwassom.github.io/modded-boys-pack/_side-files/both/mods/potioncore-1.0.4.jar"
 hash-format = "sha256"
 hash = "91819c8fcfcaf871f1f279c2b3319ad7264662936f12065863f3bbe3157138ac"

@@ -3,6 +3,6 @@ filename = "easydisenchanting-forge-1.0.1-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/easydisenchanting-forge-1.0.1-1.20.1.jar"
+url = "https://nwassom.github.io/modded-boys-pack/_side-files/both/mods/easydisenchanting-forge-1.0.1-1.20.1.jar"
 hash-format = "sha256"
 hash = "f6a736386095dd91cdabf54ec3bf33bdececcf5d34b6daeba517d473b89ba93f"

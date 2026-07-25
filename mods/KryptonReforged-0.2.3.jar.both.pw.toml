@@ -3,6 +3,6 @@ filename = "KryptonReforged-0.2.3.jar"
 side = "both"
 
 [download]
-url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/KryptonReforged-0.2.3.jar"
+url = "https://nwassom.github.io/modded-boys-pack/_side-files/both/mods/KryptonReforged-0.2.3.jar"
 hash-format = "sha256"
 hash = "9b281428d0e7560b7b6e74cdc808c0ffd7a8e662ba84d1a12a6616b49cedec10"

@@ -3,6 +3,6 @@ filename = "balm-forge-1.20.1-7.3.39-all.jar"
 side = "both"
 
 [download]
-url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/balm-forge-1.20.1-7.3.39-all.jar"
+url = "https://nwassom.github.io/modded-boys-pack/_side-files/both/mods/balm-forge-1.20.1-7.3.39-all.jar"
 hash-format = "sha256"
 hash = "bf8a600d9004443e7cf49c2597434e3f3b0e7e02bbe4ddeb1625458acf2206a2"
