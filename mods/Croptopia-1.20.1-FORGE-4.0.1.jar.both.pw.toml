@@ -1,0 +1,8 @@
+name = "Croptopia-1.20.1-FORGE-4.0.1.jar (both)"
+filename = "Croptopia-1.20.1-FORGE-4.0.1.jar"
+side = "both"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/Croptopia-1.20.1-FORGE-4.0.1.jar"
+hash-format = "sha256"
+hash = "bbd35cbdbe8b9d20a70ab79a42781a82f19f51de068861c431879becbce66d28"

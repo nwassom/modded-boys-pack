@@ -1,0 +1,5 @@
+/_side-files/
+/_review/
+/*.mrpack
+/embedded-mod-review.txt
+/mrpack_to_packwiz.py

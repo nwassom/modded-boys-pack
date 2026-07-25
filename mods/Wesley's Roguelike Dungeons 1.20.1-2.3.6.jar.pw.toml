@@ -1,0 +1,12 @@
+name = "Wesley's Roguelike Dungeons 1.20.1-2.3.6.jar"
+filename = "Wesley's Roguelike Dungeons 1.20.1-2.3.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4X1M7xxB/versions/Md7628mU/Wesley%27s%20Roguelike%20Dungeons%201.20.1-2.3.6.jar"
+hash-format = "sha512"
+hash = "5dfb13a61d2679125f23066e43e785be778f2d63b6c61eb139bf000e2aa0ea50081992bc6ec04b0685d3806085cf716318e0e8335c0563d4eefe71d6063f5f6e"
+
+[update.modrinth]
+mod-id = "4X1M7xxB"
+version = "Md7628mU"

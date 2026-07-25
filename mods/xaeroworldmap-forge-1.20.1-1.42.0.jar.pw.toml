@@ -1,0 +1,12 @@
+name = "xaeroworldmap-forge-1.20.1-1.42.0.jar"
+filename = "xaeroworldmap-forge-1.20.1-1.42.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/NcUtCpym/versions/1yUPuPrU/xaeroworldmap-forge-1.20.1-1.42.0.jar"
+hash-format = "sha512"
+hash = "319532dcda9d8d43e6e809d2d58eaafdbd7b286ec827cef86ecf583b5b04c9d02187c5fab1995fe45cd383be4c98d7c304ccf7355892d3677eb805b08861394a"
+
+[update.modrinth]
+mod-id = "NcUtCpym"
+version = "1yUPuPrU"

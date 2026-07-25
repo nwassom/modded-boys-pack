@@ -1,0 +1,8 @@
+name = "pamhc2foodcore-1.20-1.0.3.jar (both)"
+filename = "pamhc2foodcore-1.20-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/pamhc2foodcore-1.20-1.0.3.jar"
+hash-format = "sha256"
+hash = "556afd77140503e1c72d520e32b59c6b59b1bc9c49f537b0e6f05be099c64c6d"

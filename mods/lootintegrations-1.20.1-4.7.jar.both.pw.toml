@@ -1,0 +1,8 @@
+name = "lootintegrations-1.20.1-4.7.jar (both)"
+filename = "lootintegrations-1.20.1-4.7.jar"
+side = "both"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/lootintegrations-1.20.1-4.7.jar"
+hash-format = "sha256"
+hash = "88dc2701f90c04a4fa343be11ea0c21cbda1d675cba514f201946dcd8eae17ea"

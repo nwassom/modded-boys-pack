@@ -1,0 +1,8 @@
+name = "SmartBrainLib-forge-1.20.1-1.15.jar (both)"
+filename = "SmartBrainLib-forge-1.20.1-1.15.jar"
+side = "both"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/SmartBrainLib-forge-1.20.1-1.15.jar"
+hash-format = "sha256"
+hash = "665f65f77cc36379a9ae11c09db5d9efa1ad4f8d017edc8f65903ff27cacdb1d"

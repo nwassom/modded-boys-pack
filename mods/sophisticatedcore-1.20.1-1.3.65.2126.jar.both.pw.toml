@@ -1,0 +1,8 @@
+name = "sophisticatedcore-1.20.1-1.3.65.2126.jar (both)"
+filename = "sophisticatedcore-1.20.1-1.3.65.2126.jar"
+side = "both"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/sophisticatedcore-1.20.1-1.3.65.2126.jar"
+hash-format = "sha256"
+hash = "e87a272c9f46bd7379afcfc24fc528429b65a6e4e58606971e616890ce0c1dcf"

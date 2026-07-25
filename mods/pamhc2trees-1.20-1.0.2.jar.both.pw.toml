@@ -1,0 +1,8 @@
+name = "pamhc2trees-1.20-1.0.2.jar (both)"
+filename = "pamhc2trees-1.20-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/pamhc2trees-1.20-1.0.2.jar"
+hash-format = "sha256"
+hash = "69e0c722c786b78aea299e7faf27991e6533a671a66f281fb5ced279eb31b0dd"

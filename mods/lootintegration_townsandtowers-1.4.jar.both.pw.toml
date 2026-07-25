@@ -1,0 +1,8 @@
+name = "lootintegration_townsandtowers-1.4.jar (both)"
+filename = "lootintegration_townsandtowers-1.4.jar"
+side = "both"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/lootintegration_townsandtowers-1.4.jar"
+hash-format = "sha256"
+hash = "3ae245fa68937122ddc50461c48aea55619ba9918c6ff5b0f9d6d7e60aef032f"

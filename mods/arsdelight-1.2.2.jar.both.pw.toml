@@ -1,0 +1,8 @@
+name = "arsdelight-1.2.2.jar (both)"
+filename = "arsdelight-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/arsdelight-1.2.2.jar"
+hash-format = "sha256"
+hash = "fd1d5898c7e6b83dccfd871b5e95c9e5b375f7701aef14fdb0807ab3fa11cb77"

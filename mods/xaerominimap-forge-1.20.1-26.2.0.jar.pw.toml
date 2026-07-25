@@ -1,0 +1,12 @@
+name = "xaerominimap-forge-1.20.1-26.2.0.jar"
+filename = "xaerominimap-forge-1.20.1-26.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1bokaNcj/versions/nqVwHuEZ/xaerominimap-forge-1.20.1-26.2.0.jar"
+hash-format = "sha512"
+hash = "0bf8a4deffdcf2954fefafa4705e79e0a2105ba8a28e5db170ac575fa372cd67427d3a15a3818f009b95eca30d5622dc0aa0046a7700638f7c395cc54f05e967"
+
+[update.modrinth]
+mod-id = "1bokaNcj"
+version = "nqVwHuEZ"

@@ -1,0 +1,13 @@
+name = "modded boys server v6"
+version = "1.2.0"
+description = "Converted from Modrinth mrpack"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "aa2e1287def8d6e9d67b6503dc38bf470cd4338b08b5501fa3843178c58c3e1a"
+
+[versions]
+forge = "47.4.21"
+minecraft = "1.20.1"

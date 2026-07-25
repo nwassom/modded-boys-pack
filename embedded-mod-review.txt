@@ -1,0 +1,35 @@
+Embedded JAR review
+===================
+
+These JARs came from overrides/mods rather than the Modrinth file index.
+Verify each side declaration. Change side = "both" to "client" or
+"server" in the matching *.pw.toml when appropriate, then run:
+
+    packwiz refresh
+
+both    mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar
+both    mods/Croptopia-1.20.1-FORGE-4.0.1.jar
+both    mods/EpheroLib-1.20.1-FORGE-1.2.0.jar
+both    mods/GlitchCore-forge-1.20.1-0.0.1.1.jar
+both    mods/KryptonReforged-0.2.3.jar
+both    mods/SmartBrainLib-forge-1.20.1-1.15.jar
+both    mods/TerraBlender-forge-1.20.1-3.0.1.10.jar
+both    mods/arsdelight-1.2.2.jar
+both    mods/balm-forge-1.20.1-7.3.39-all.jar
+client  mods/controllable-forge-1.20.1-0.21.9.jar
+both    mods/cupboard-1.20.1-3.9.jar
+both    mods/easydisenchanting-forge-1.0.1-1.20.1.jar
+both    mods/framework-forge-1.20.1-0.8.0.jar
+both    mods/geckolib-forge-1.20.1-4.8.4.jar
+client  mods/gpumemleakfix-1.20.1-1.8.jar
+both    mods/lootintegration_townsandtowers-1.4.jar
+both    mods/lootintegrations-1.20.1-4.7.jar
+both    mods/pamhc2foodcore-1.20-1.0.3.jar
+both    mods/pamhc2trees-1.20-1.0.2.jar
+both    mods/potioncore-1.0.4.jar
+both    mods/refurbished_furniture-forge-1.20.1-1.0.20.jar
+both    mods/sophisticatedbackpacks-1.20.1-3.24.59.1960.jar
+both    mods/sophisticatedcore-1.20.1-1.3.65.2126.jar
+both    mods/twilightforest-1.20.1-4.3.2508-universal.jar
+both    mods/uniquemagic-1.20.1-1.1.0.jar
+both    mods/waystones-forge-1.20.1-14.1.20.jar

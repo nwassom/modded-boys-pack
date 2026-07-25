@@ -1,0 +1,12 @@
+name = "powerutils-1.8.jar"
+filename = "powerutils-1.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EqI9kqZg/versions/FTuoegSv/powerutils-1.8.jar"
+hash-format = "sha512"
+hash = "4f1c1cf112e8982462a096f063afa29894dc66903f3d9cd4dfc801fe34583808b8a1ccdf17b51b98c714409a618e3ba1e79e06830332f6435c5492a40cbaa952"
+
+[update.modrinth]
+mod-id = "EqI9kqZg"
+version = "FTuoegSv"

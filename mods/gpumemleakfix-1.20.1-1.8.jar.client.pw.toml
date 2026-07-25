@@ -1,0 +1,8 @@
+name = "gpumemleakfix-1.20.1-1.8.jar (client)"
+filename = "gpumemleakfix-1.20.1-1.8.jar"
+side = "client"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/client/mods/gpumemleakfix-1.20.1-1.8.jar"
+hash-format = "sha256"
+hash = "a7019442f1b07b1a4a875fe404d04d162905cc7fd42e0b3c843aefc7b39efc46"

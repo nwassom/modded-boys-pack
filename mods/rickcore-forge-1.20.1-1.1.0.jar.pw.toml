@@ -1,0 +1,12 @@
+name = "rickcore-forge-1.20.1-1.1.0.jar"
+filename = "rickcore-forge-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LPM7bcAN/versions/uU8WRp7A/rickcore-forge-1.20.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "2ed770ad883dbfb66ba669716b2fb8abe2899acf44855aecb8677ca97bac90e95f3e12d8e776cdfbb36117875dda932ce0b61fbbbd3cd8103bac1cbfc227576b"
+
+[update.modrinth]
+mod-id = "LPM7bcAN"
+version = "uU8WRp7A"

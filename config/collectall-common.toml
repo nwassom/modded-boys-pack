@@ -1,0 +1,10 @@
+#CollectAll Configuration
+#Enable Vein Mining (Use a pickaxe to collect all the ores around)
+enableVeinMining = true
+#Enable Tree Chopping (Use an axe while crouching at the base of the tree)
+enableTreeChopping = true
+#Enable Crop Harvesting (Use a hoe to harvest plants grown in a certain area)
+enableCropHarvesting = true
+#Enable Hoe Weeding (weeding grass in a certain area)
+enableHoeWeeding = true
+

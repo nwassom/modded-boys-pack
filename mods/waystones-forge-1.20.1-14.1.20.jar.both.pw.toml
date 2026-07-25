@@ -1,0 +1,8 @@
+name = "waystones-forge-1.20.1-14.1.20.jar (both)"
+filename = "waystones-forge-1.20.1-14.1.20.jar"
+side = "both"
+
+[download]
+url = "https://nwassom.github.io/modded-mc-server/_side-files/both/mods/waystones-forge-1.20.1-14.1.20.jar"
+hash-format = "sha256"
+hash = "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"

@@ -1,0 +1,30 @@
+# Minecraft runtime files
+saves/
+logs/
+crash-reports/
+screenshots/
+xaero/
+XaeroWaypoints*/
+modernfix/
+data/
+
+# Local player data
+options.txt
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+patchouli_data.json
+
+# JVM crash/replay files
+hs_err_*.log
+replay_pid*.log
+
+# Source exports
+*.mrpack
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

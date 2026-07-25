@@ -1,0 +1,12 @@
+name = "stateobserver-forge-1.20.1-1.4.3.jar"
+filename = "stateobserver-forge-1.20.1-1.4.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/D1lhcTKz/versions/BHMS4baI/stateobserver-forge-1.20.1-1.4.3.jar"
+hash-format = "sha512"
+hash = "41dbbbe2d00d3e0f9620fcf5bec5bc98b893f74f5912da7e56e4647156aee266ae8ca34825ce5cc6f133f739e01d8750fc4598dc480613657618f2673a8d74a6"
+
+[update.modrinth]
+mod-id = "D1lhcTKz"
+version = "BHMS4baI"
