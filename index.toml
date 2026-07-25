@@ -976,11 +976,6 @@ hash = "4b37ed604cff06fdb3105dea080b7194ae3b543732f95afd9d36355d8a673c83"
 metafile = true
 
 [[files]]
-file = "mods/DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar.pw.toml"
-hash = "5bacdfe402a34df226cf57daac2a6267f350b60049a34aa42f4ec359e774ca12"
-metafile = true
-
-[[files]]
 file = "mods/EpheroLib-1.20.1-FORGE-1.2.0.jar.both.pw.toml"
 hash = "37da7441e796d31e4ee5ab1ee58d29f5cdaeeffc836a73f5223fa4fce3698a0e"
 metafile = true
@@ -1223,6 +1218,11 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker-forge-1.20.1-1.3.3.jar.pw.toml"
 hash = "ef5d00cc9785c7d4813bfeed19b25df4b4f447de899ee3ac0dfe128eab73e784"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "2a66bb03365c73b9b17bb90562d0d0d32a90cd6e74a922aded628b69b7bdc456"
 metafile = true
 
 [[files]]
