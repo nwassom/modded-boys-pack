@@ -17,6 +17,10 @@ file = "config/ae2/common.json"
 hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
 
 [[files]]
+file = "config/alexscaves-client.toml"
+hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
+
+[[files]]
 file = "config/alexsmobs.toml"
 hash = "7c01df704a66653df7793e4c6a856815be283106df03765f196c89bd962d463c"
 
