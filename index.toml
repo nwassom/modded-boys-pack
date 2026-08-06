@@ -1608,3 +1608,11 @@ metafile = true
 file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
 hash = "6e3714b3eee005229146eb0c36a911380f209fac39fedeaa0f2d303d7ca06402"
 metafile = true
+
+[[files]]
+file = "tools/configure-prism.ps1"
+hash = "fa9a277070f4ca569313198bf9a11e33734438a38ad75d43d3bfe4b628ae0d4f"
+
+[[files]]
+file = "tools/prelaunch.ps1"
+hash = "133d2cf98bdcd609d5c20c0888034f321d9a26d9567752872e197497048a9247"
