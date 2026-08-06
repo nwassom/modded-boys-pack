@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-# Allow the script to be run manually from minecraft/tools.
+# Allow manual execution from minecraft/tools.
 if ([string]::IsNullOrWhiteSpace($InstanceDir)) {
     $minecraftDir = Split-Path $PSScriptRoot -Parent
     $InstanceDir = Split-Path $minecraftDir -Parent
@@ -18,16 +18,46 @@ if (-not (Test-Path $instanceConfig)) {
     exit 2
 }
 
-# Confirm that the selected Java runtime supports ZGC before enabling it.
-if (-not [string]::IsNullOrWhiteSpace($JavaExe) -and (Test-Path $JavaExe)) {
-    & $JavaExe -XX:+UseZGC -version *> $null
+# Test ZGC without letting java -version's stderr output become a
+# PowerShell NativeCommandError.
+if (
+    -not [string]::IsNullOrWhiteSpace($JavaExe) -and
+    (Test-Path $JavaExe)
+) {
+    $startInfo = New-Object System.Diagnostics.ProcessStartInfo
+    $startInfo.FileName = $JavaExe
+    $startInfo.Arguments = "-XX:+UseZGC -version"
+    $startInfo.UseShellExecute = $false
+    $startInfo.RedirectStandardOutput = $true
+    $startInfo.RedirectStandardError = $true
+    $startInfo.CreateNoWindow = $true
 
-    if ($LASTEXITCODE -ne 0) {
+    $process = New-Object System.Diagnostics.Process
+    $process.StartInfo = $startInfo
+
+    [void]$process.Start()
+
+    $standardOutput = $process.StandardOutput.ReadToEnd()
+    $standardError = $process.StandardError.ReadToEnd()
+
+    $process.WaitForExit()
+    $javaExitCode = $process.ExitCode
+    $process.Dispose()
+
+    if ($javaExitCode -ne 0) {
         Write-Host ""
-        Write-Host "The selected Java runtime does not support ZGC." -ForegroundColor Red
-        Write-Host "Enable Prism's automatic Java 17 management, then launch again."
+        Write-Host "The selected Java runtime does not support ZGC." `
+            -ForegroundColor Red
+
+        if (-not [string]::IsNullOrWhiteSpace($standardError)) {
+            Write-Host $standardError
+        }
+
+        Write-Host "Select a compatible 64-bit Java 17 runtime in Prism."
         exit 3
     }
+
+    Write-Host "Java runtime supports ZGC." -ForegroundColor Green
 }
 
 $original = [System.IO.File]::ReadAllText($instanceConfig)
@@ -35,7 +65,7 @@ $updated = $original
 
 $desiredSettings = [ordered]@{
     "OverrideJavaArgs" = "true"
-    "JvmArgs"          = "-XX:+UseZGC -XX:+DisableExplicitGC"
+    "JvmArgs" = "-XX:+UseZGC -XX:+DisableExplicitGC"
 }
 
 foreach ($setting in $desiredSettings.GetEnumerator()) {
@@ -46,10 +76,7 @@ foreach ($setting in $desiredSettings.GetEnumerator()) {
         $updated = [regex]::Replace(
             $updated,
             $pattern,
-            [System.Text.RegularExpressions.MatchEvaluator]{
-                param($match)
-                return $replacement
-            },
+            $replacement,
             1
         )
     }
@@ -70,12 +97,23 @@ if ($updated -ne $original) {
     }
 
     $utf8 = New-Object System.Text.UTF8Encoding($false)
-    [System.IO.File]::WriteAllText($instanceConfig, $updated, $utf8)
+    [System.IO.File]::WriteAllText(
+        $instanceConfig,
+        $updated,
+        $utf8
+    )
 
     Write-Host ""
-    Write-Host "Updated this Prism instance to use Java 17 ZGC." -ForegroundColor Green
+    Write-Host "Configured this Prism instance to use ZGC." `
+        -ForegroundColor Green
     Write-Host "Launch the instance again to apply the new JVM settings."
+
+    # Stop this launch because Prism already selected the old JVM
+    # arguments before running the pre-launch command.
     exit 42
 }
+
+Write-Host "Prism ZGC settings are already configured." `
+    -ForegroundColor Green
 
 exit 0

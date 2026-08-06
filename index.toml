@@ -1611,7 +1611,7 @@ metafile = true
 
 [[files]]
 file = "tools/configure-prism.ps1"
-hash = "fa9a277070f4ca569313198bf9a11e33734438a38ad75d43d3bfe4b628ae0d4f"
+hash = "04d1943cceef294f3347f8f5e8ac9a45f0174167034d4c69cd9a579e86076740"
 
 [[files]]
 file = "tools/prelaunch.ps1"
